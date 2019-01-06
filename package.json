@@ -1,6 +1,6 @@
 {
   "name": "appleproject",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,6 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "deploy": "git add . && npm version minor --force -m \"v.%s\"",
+    "heroku-postbuild": "ng build --prod --aot --build-optimizer --stats-json --named-chunks",
     "postversion": "git push origin master && git push --tags && heroku git:remote -a mars-apple && git push heroku master -f"
   },
   "private": true,
