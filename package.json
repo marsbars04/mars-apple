@@ -1,13 +1,15 @@
 {
   "name": "appleproject",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "git add . && npm version minor --force -m \"v.%s\"",
+    "postversion": "git push origin master && git push --tags && heroku git:remote -a mars-apple && git push heroku master -f"
   },
   "private": true,
   "dependencies": {
@@ -20,7 +22,12 @@
     "@angular/platform-browser": "~7.0.0",
     "@angular/platform-browser-dynamic": "~7.0.0",
     "@angular/router": "~7.0.0",
+    "body-parser": "^1.18.3",
     "core-js": "^2.5.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "path": "^0.12.7",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
   },
