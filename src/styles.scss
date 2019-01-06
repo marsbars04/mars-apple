@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./assets/scss/fonts.scss";
+
+@font-face {
+  font-family: "Roboto-Black";
+  src: url("./assets/fonts/roboto/fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-BlackItalic";
+  src: url("./assets/fonts/roboto/fonts/Roboto-BlackItalic.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("./assets/fonts/roboto/fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-BoldItalic";
+  src: url("./assets/fonts/roboto/fonts/Roboto-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url("./assets/fonts/roboto/fonts/Roboto-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("./assets/fonts/roboto/fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src: url("./assets/fonts/roboto/fonts/Roboto-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("./assets/fonts/roboto/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-MediumItalic";
+  src: url("./assets/fonts/roboto/fonts/Roboto-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("./assets/fonts/roboto/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("./assets/fonts/roboto/fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-ThinItalic";
+  src: url("./assets/fonts/roboto/fonts/Roboto-ThinItalic.ttf");
+}
+body {
+  background-color: #222222;
+}
