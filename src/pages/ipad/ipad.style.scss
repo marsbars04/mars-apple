@@ -1,0 +1,55 @@
+.section-black {
+  background-color: black;
+  margin-bottom: 20px;
+  padding-top: 3em;
+  padding-bottom: 3.1em;
+
+  .headline {
+    font-size: 50px;
+    line-height: 1.09091;
+    font-weight: 600;
+    letter-spacing: -0.002em;
+    color: white;
+    text-align: center;
+    font-family: "Roboto-Light";
+    text-shadow: 1px 1px 1px #212121;
+  }
+  .subhead {
+    color: white;
+    text-align: center;
+    font-family: "Roboto-Light";
+    font-size: 23px;
+    letter-spacing: 2px;
+    line-height: 30px;
+  }
+
+  .cta-links {
+    text-align: center;
+    font-family: "Roboto-Medium";
+
+    a {
+      font-size: 25px;
+      text-decoration: none;
+      color: #6bf;
+      margin-right: 15px;
+    }
+  }
+
+  .iphone-xs {
+    width: 100%;
+    max-width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+  }
+
+  .ipadpro {
+    width: 100%;
+    max-width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+  }
+}

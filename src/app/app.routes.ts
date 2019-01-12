@@ -9,6 +9,7 @@ import { SupportComponent } from 'src/pages/support/support.component';
 import { TvComponent } from 'src/pages/tv/tv.component';
 import { WatchComponent } from 'src/pages/watch/watch.component';
 import { SearchComponent } from 'src/pages/search/search.component';
+import { ShoppingComponent } from 'src/pages/shopping/shopping.component';
 
 export const AppRoutes: Routes = [
   {
@@ -51,5 +52,9 @@ export const AppRoutes: Routes = [
   {
     path: 'search',
     component: SearchComponent
+  },
+  {
+    path: 'shopping',
+    component: ShoppingComponent
   },
 ];
