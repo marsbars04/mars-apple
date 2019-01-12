@@ -5,7 +5,7 @@
   position: absolute;
   left: 0px;
   top: 0px;
-  background-color:#222222;
+  background-color: #222222;
 }
 
 .header {
@@ -20,6 +20,8 @@
 .navbar {
   list-style: none;
   display: inline-block;
+  overflow: hidden;
+  height: 28px;
 }
 
 .navbar li {
@@ -30,7 +32,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
-  font-family: 'Roboto-Light';
+  font-family: "Roboto-Light";
   position: relative;
   top: -4px;
 }
